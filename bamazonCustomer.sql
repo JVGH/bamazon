@@ -14,6 +14,3 @@ CREATE TABLE products (
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ('item1','dept1',10.0,10), ('item2','dept1',10.0,10), ('item3','dept2',20.0,10), ('item4','dept2',20.0,10), ('item5','dept3',30.0,10),
  ('item6','dept3',30.0,10), ('item7','dept4',40.0,10), ('item8','dept4',40.0,10), ('item9','dept5',50.0,10), ('item10','dept5',50.0,10);
- 
-SELECT *
-FROM   products;
